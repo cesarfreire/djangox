@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_djangox_1727376137667-pr-trigger-input-set
+  identifier: Build_djangox_1727376137667prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_djangox_1727376137667
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
